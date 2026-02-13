@@ -1,4 +1,4 @@
-# Automated API Testing Project - The Movie Database API 🎬
+# Automated API Testing Project - The Movie Database API
 
 ## Project Overview
 
@@ -8,24 +8,24 @@ This project contains 20 different test cases covering functional, negative, bou
 
 ## Key Features
 
-### 🔧 API Testing Capabilities
+### API Testing Capabilities
 - **Functional tests**: Validation of basic API operations (GET, POST queries)
 - **Negative tests**: Error handling and validation testing (invalid API key, invalid parameters)
 - **Boundary Value Analysis (BVA)**: 2-point Boundary tests for page parameters
 - **Non-functional tests**: Performance and data integrity validation
 
-### 📊 Reporting and Visualization
+### Reporting and Visualization
 - **Automatic JSON reports**: Structured test results for machine processing
 - **pytest HTML reports**: Detailed test documentation
 - **Custom dashboard**: Modern, interactive HTML dashboard with Jinja2 templates
 
-### 🚀 CI/CD Integration
+### CI/CD Integration
 - **GitHub Actions workflow**: Automatic testing on every push and pull request
 - **Artifact management**: 30-day retention of test reports
 - **Manual execution**: workflow_dispatch support
 - **GitHub Summary**: Instant test result display
 
-### 🏗️ Modular Architecture
+### Modular Architecture
 - Clean code structure
 - Reusable API functions
 - Easily extensible test cases
@@ -246,13 +246,10 @@ This project serves educational/learning purposes and uses The Movie Database (T
 
 ### Author
 - **GitHub:** [@csokanandor95](https://github.com/csokanandor95)
+- **LinkedIn:** [My profile](https://www.linkedin.com/in/n%C3%A1ndor-cs%C3%B3ka-ba76171a2/)
 
 ### Bug Reports
 
 If you find a bug or have suggestions, please open a [GitHub Issue](https://github.com/csokanandor95/api-testing-project/issues)!
-
----
-
-**🎯 Made during early morning or late night hours** fueled by lots of coffee! ☕ Because I love coding and software QA.
 
 ---
