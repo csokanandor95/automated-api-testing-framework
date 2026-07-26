@@ -1,0 +1,19 @@
+{
+    "valid_query": {
+        "value": "The Naked Gun",
+        "note": "Létező film - pozitív keresési teszthez (TC03)"
+    },
+    "nonsense_query": {
+        "value": "!!!@@@",
+        "note": "Értelmetlen karaktersorozat - üres találati listát vár (TC10)"
+    },
+    "empty_query": {
+        "value": "",
+        "note": "Üres keresési string - üres találati listát vár (TC12)"
+    },
+    "long_query": {
+        "character": "a",
+        "length": 300,
+        "note": "300 karakteres kifejezés összeállításához: character * length (TC11)"
+    }
+}

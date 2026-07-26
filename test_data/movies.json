@@ -1,0 +1,11 @@
+{
+    "valid_movie": {
+        "id": 27205,
+        "title": "Inception",
+        "note": "Stabil, jól ismert film ID - a valós API válasz tartalmának ellenőrzéséhez (TC02)"
+    },
+    "invalid_movie_id": {
+        "id": -1,
+        "note": "Negatív szám - érvénytelen bemenet teszteléséhez (TC09)"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "languages": {
+        "hungarian": "hu-HU",
+        "english": "en-US"
+    },
+    "performance_thresholds": {
+        "max_response_time_seconds": 2.0,
+        "max_response_size_mb": 1.0
+    }
+}

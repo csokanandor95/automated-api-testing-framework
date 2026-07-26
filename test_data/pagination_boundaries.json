@@ -1,0 +1,26 @@
+[
+    {
+        "test_id": "TC13",
+        "description": "Alsó határ alatt (page=0) - érvénytelennek kell lennie",
+        "page": 0,
+        "expected_status": 400
+    },
+    {
+        "test_id": "TC14",
+        "description": "Alsó határ (page=1) - érvényesnek kell lennie",
+        "page": 1,
+        "expected_status": 200
+    },
+    {
+        "test_id": "TC15",
+        "description": "Felső határ (page=500) - érvényesnek kell lennie",
+        "page": 500,
+        "expected_status": 200
+    },
+    {
+        "test_id": "TC16",
+        "description": "Felső határ felett (page=501) - érvénytelennek kell lennie",
+        "page": 501,
+        "expected_status": 400
+    }
+]
